@@ -1,6 +1,6 @@
 {
   "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
+  "description": "Portfolio of Sylvester Eziagor",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -31,5 +31,9 @@
     "postcss": "latest",
     "sass": "^1.69.5",
     "tailwindcss": "latest"
-  }
+  },
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
