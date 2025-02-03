@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Cybersecurity Analysis",
+    duration: "Jan 2025 - Present",
+    institution: "Mohawk College",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Power & Machinery Engineering (Agric Eng.)",
+    duration: "2016 - 2022",
+    institution: "Federal University of Technology Owerri Nigeria",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Diploma, Computer Software Engineering",
+    duration: "Apr 2022 - Jul 2023",
+    institution: "AltSchool Africa (Remote)",
   }
 ]
