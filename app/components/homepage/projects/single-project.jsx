@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaCode, FaPlay } from 'react-icons/fa';
-import placeholder from '/public/png/placeholder.png';
 
 const SingleProject = ({ project }) => {
   const { name, description, tags, code, demo, image, features } = project;
@@ -36,12 +35,12 @@ const SingleProject = ({ project }) => {
       </div>
 
       <div className='flex flex-col items-center justify-between w-full h-full'>
-        <h2 className='text-[#EFF3F4] not-italic font-semibold text-[1.525rem] leading-[110%] text-center capitalize'>
+        <h2 className='text-[#16f2b3] text-base lg:text-xl not-italic font-semibold text-[1.525rem] leading-[110%] text-center capitalize'>
           {name}
         </h2>
         <div className="p-6">
           <Image
-            src={image ? image?.src : placeholder}
+            src={image ? image : '/png/placeholder.png'}
             alt={name}
             width={1080}
             height={720}
@@ -52,7 +51,7 @@ const SingleProject = ({ project }) => {
           <Link
             href={demo}
             target='_blank'
-            className="flex justify-center items-center w-10 h-10 rounded-full border-2 border-[#EFF3F4] text-[#EFF3F4] transition-all duration-300 hover:bg-[#231d4b] hover:text-violet-600 hover:border-[#0F0C41] hover:scale-110 decoration-clone cursor-pointer no-underline delay-[0.3s]">
+            className="flex justify-center items-center w-10 h-10 rounded-full border-2 border-[#EFF3F4] text-[#EFF3F4] transition-all duration-300 hover:bg-[#231d4b] hover:text-violet-600 hover:border-[#0F0C41] hover:scale-110 cursor-pointer no-underline  delay-[0.3s] group-hover:translate-x-[-1px]">
             <FaPlay />
           </Link>
           
